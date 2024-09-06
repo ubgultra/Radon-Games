@@ -4,10 +4,7 @@ const apexHost = location.host.startsWith("www.")
 
 self.__uv$config = {
   bare: [
-    `https://uv.${apexHost}/bare1/`,
-    `https://uv.${apexHost}/bare2/`,
-    `https://uv.${apexHost}/bare3/`,
-    `https://uv.${apexHost}/bare3/`
+    `https://artclass.flz.ca/bare/`
   ],
   prefix: "/uv/~/",
   encodeUrl: Ultraviolet.codec.xor.encode,
